@@ -110,6 +110,11 @@ body{
 }
 footer{
    
-    margin-top: 100vh;
+    margin-top: 50vh;
   
+}
+
+#map { 
+    height:400px;
+    width: 80vh;
 }
