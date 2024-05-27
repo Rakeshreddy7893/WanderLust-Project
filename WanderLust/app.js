@@ -53,9 +53,9 @@ const sessionOptions ={
   }
 };
 
-app.get('/',(req,res)=>{
-  res.send("Hi iam  root");
-})
+// app.get('/',(req,res)=>{
+//   res.send("Hi iam  root");
+// })
 
 app.use(session(sessionOptions));
 app.use(flash());
